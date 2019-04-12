@@ -1,29 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lenovo Vibe P1m</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.android{
+  float: left;
+  width: 2.5%;
+  height: 2.5%;
+}
+</style>
 </head>
-<body style="background-color:grey">
-    <h1 
-    style="
-    text-align:center; 
-    color: chartreuse; 
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 250%
-    ">Lenovo Vibe P1m</h1>
-    <p 
-    style="
-    text-align:center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 200%
-    ">
-        <a style="color:red" href="https://t-rex2017.github.io/Lenovo_Vibe_P1m/about.html">About</a> 
-        <a style="color:orange" href="https://t-rex2017.github.io/Lenovo_Vibe_P1m/roms.html">Roms</a> 
-        <a style="color:green" href="https://t-rex2017.github.io/Lenovo_Vibe_P1m/kernel.html">kernels</a> 
-        <a style="color:yellow" href="https://t-rex2017.github.io/Lenovo_Vibe_P1m/recovery.html">Recovery</a>
-    </p>
+<body>
+  <img class="android" src="images/android.png" alt="android">
+  <h1>Lenovo Vibe P1m</h1>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="spec.html">Specs</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="roms.html">Roms</a></li>
+    <li><a href="recovery.html">Recovery</a></li>
+    <li><a href="kernel.html">Kernel</a></li>
+  </ul>
 </body>
 </html>
+
