@@ -97,3 +97,19 @@
   right: 16px;
   text-align: right;
 }
+
+/*main footer*/
+.main-footer{
+  text-align: center;
+  font-size: small;
+  padding: 0.5rem;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.main-footer i{
+  color: red;
+  font-size: 1.2rem
+}

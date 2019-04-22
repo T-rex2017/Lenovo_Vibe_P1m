@@ -11,21 +11,6 @@
     font-weight: bold;
 }
 
-.blog-main-footer{
-    text-align: center;
-    font-size: small;
-    padding: 0.5rem;
-    font-weight: bold;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.blog-main-footer i{
-    color: red;
-    font-size: 1.2rem
-}
-
 .blog-container{
     display: flex;
     flex-wrap: wrap;
@@ -76,13 +61,4 @@
 
 .content-footer a{
     text-decoration: none;
-}
-
-@keyframes check{
-    from{
-
-    }
-    to{
-        transition: cubic-bezier(0.075, 0.82, 0.165, 1)
-    }
 }
