@@ -68,7 +68,6 @@
 /*landing page background*/
 
 .landing-page-header{
-  border-bottom: 4px solid red;
   text-align: center;
   font-size: 150%;
   font-weight: bold;
@@ -89,7 +88,6 @@
   padding: 0.5rem;
   font-weight: bold;
   width: 100%;
-  border-top: 4px solid red;
 }
 
 .main-footer i{
