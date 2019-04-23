@@ -62,3 +62,8 @@
 .content-footer a{
     text-decoration: none;
 }
+
+.main-footer{
+    margin-top: 2vh;
+    border: unset;
+}
